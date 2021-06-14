@@ -1,0 +1,120 @@
+
+body{
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color:gray;
+}
+.header {
+    border: 1px solid black;
+    
+    display: flex;
+   /* flex: 2;*/
+
+    justify-content: space-between;
+    padding: 2%;
+}
+#h2_tittle
+{
+color:#00ccb1;
+}
+
+.liste_link
+{
+    list-style-type:none;
+   
+   display:flex;
+}
+.liste_link a{
+    padding: 0 15px;
+}
+.marged
+{margin: 0 15%;
+
+}
+
+.section_1
+{
+border:1px solid;
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+.parag_des
+{
+display: flex;
+
+
+}
+
+.section_2
+{
+border:1px solid;
+display:flex;
+/* justify-content: space-between; --> */
+}
+
+.section_3
+{
+
+    border:1px solid;
+display:flex;
+flex-direction: row;
+    padding: 2%;
+}
+.for_patient
+{
+    background-color: #00ccb1;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.for_doctor
+{
+    background-color: #3d83df;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.for_clinic
+{
+    background-color: #e1edf1;
+    display: flex;
+    flex-direction: column;
+  
+  padding: 2%;
+}
+   /*flex: 2;*/
+   /* justify-content: space-between;
+    l
+   
+}
+
+    
+
+
+
+.main{
+
+    border: 1px solid black;
+
+
+}
+.parag_des
+{
+display: flex;
+
+
+}
+
+footer{
+    width: 100%;
+    padding-top: 90% ;
+
+   background-color:yellow;
+    box-shadow: 0px 0px 15px #333;
+}
+
+
